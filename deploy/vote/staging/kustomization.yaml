@@ -8,3 +8,10 @@ patchesStrategicMerge:
 - service.yaml
 
 namespace: instavote
+
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "mohamed.adil.ibrahim@gmail.com"
